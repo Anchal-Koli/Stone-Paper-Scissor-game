@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper & Scissors</title>
+    <link rel="stylesheet" href="sps.css">
+</head>
+<body>
+    
+    <h1>🪨📄✂️Stone Paper & Scissors....</h1>
+    <button id="mode"> Change Mode</button>
+</main>
+<main>
+    <div class="choice">
+        <div class="choose"id="stone">
+            <img src="stone.jpg" alt="stone"/>
+        </div>
+        <div class="choose" id="paper">
+            <img src="paper.jpeg" width="450" height="450" alt="paper"/>
+        </div>  
+
+        <div class="choose" id="scissors">
+            <img src="scissors.jpg" alt="scissors"/>
+        </div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>comp</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <!-- Modal Popup -->
+  <div id="popup-modal" class="modal hidden">
+    <div class="modal-content">
+      <p id="popup-text">Result here</p>
+      <button id="yes-btn">Play Again</button>
+      <button id="no-btn">Exit</button>
+    </div>
+  </div>
+    
+
+<script src="sps.js"></script>
+</body>
+</html>

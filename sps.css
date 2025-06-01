@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+    background-color: #1e90ff;
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.choose:hover{
+    cursor: pointer;
+    opacity:0.5;
+}
+
+.choose img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.choice{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.score-board{
+    justify-content: center;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 5rem;
+}
+#user-score,#comp-score{
+font-size: 4rem;
+color: #1e90ff;
+}
+.msg-container{
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+}
+#msg{
+    
+background-color: blue;
+    color: azure;
+    font-size: 2rem;
+    text-align: center;
+    display: inline;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  height: 100%; width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.modal-content button {
+  padding: 0.7rem 1.5rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#yes-btn {
+  background-color: green;
+  color: white;
+}
+
+#no-btn {
+  background-color: red;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+button{
+    justify-items:left;
+    align-items:flex-end;
+    border: 0cqmax;
+    color: darkmagenta;
+    background-color: rgb(7, 231, 182);
+    font-size: large;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
